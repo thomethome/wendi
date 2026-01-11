@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PALÁCIO TOMÉ - Gestão de Pessoas Ltda</title>
+
+<style>
+/* ===== RESET BÁSICO ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+/* ===== CONTAINER PADRÃO ===== */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* ===== TOPO / HERO ===== */
+header {
+    background: #0f1c2e;
+    color: #fff;
+    padding: 60px 0;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+
+/* LOGO */
+.logo {
+    margin-bottom: 20px;
+}
+.logo img {
+    max-width: 220px;
+}
+
+/* TEXTO HERO */
+.hero h1 {
+    font-size: 2.4rem;
+    margin-bottom: 15px;
+}
+.hero p {
+    font-size: 1.1rem;
+    opacity: 0.95;
+}
+
+/* VIDEO */
+.video-placeholder {
+    background: #000;
+    width: 100%;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #bbb;
+    font-size: 0.95rem;
+}
+
+/* ===== SEÇÕES ===== */
+section {
+    padding: 60px 0;
+    background: #fff;
+    margin-bottom: 10px;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #0f1c2e;
+}
+
+section h3 {
+    margin-bottom: 10px;
+    color: #0f1c2e;
+}
+
+.texto {
+    max-width: 900px;
+    margin-bottom: 40px;
+}
+
+/* ===== SERVIÇOS ===== */
+.servicos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+}
+
+.card {
+    background: #f9f9f9;
+    padding: 25px;
+    border-left: 5px solid #0f1c2e;
+}
+
+/* ===== BLOCO COM IMAGEM ===== */
+.img-centralizada {
+    display: block;
+    margin: 0 auto;
+}
+
+.bloco-imagem {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+
+/* IMAGEM RESERVADA */
+.imagem-placeholder {
+    background: #ddd;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+    font-size: 0.9rem;
+}
+
+/* ===== CTA ===== */
+.cta {
+    background: #0f1c2e;
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.cta h2 {
+    color: #fff;
+}
+
+.cta a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 14px 30px;
+    background: #c9a44c;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* ===== RODAPÉ ===== */
+footer {
+    background: #111;
+    color: #ccc;
+    padding: 40px 0;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+/* ===== RESPONSIVO ===== */
+@media (max-width: 768px) {
+    .hero,
+    .bloco-imagem {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<!-- ===== HEADER ===== -->
+<header>
+    <div class="container hero">
+
+        <div>
+            <!-- LOGOMARCA -->
+            <div class="logo">
+                <!-- Substituir src pelo logo -->
+                <img src="C:\Users\tomea\Downloads\logo-palacio-tome.webp" alt="PALÁCIO TOMÉ - Gestão de Pessoas Ltda">
+            </div>
+
+            <h1>Gestão de Recursos Humanos com Segurança Jurídica</h1>
+            <p>
+                Cuidamos do seu RH para que você cuide do seu negócio, com organização,
+                conformidade trabalhista e respaldo jurídico.
+            </p>
+        </div>
+
+        <!-- VÍDEO INSTITUCIONAL -->
+        <div class="video-placeholder">
+            Espaço reservado para vídeo institucional
+        </div>
+
+    </div>
+</header>
+
+<!-- ===== APRESENTAÇÃO ===== -->
+<section>
+    <div class="container texto">
+        <p>
+            A gestão de pessoas envolve controle, conferência e decisões que impactam diretamente
+            a saúde financeira da empresa. Atuamos de forma estratégica, organizando o RH e
+            prevenindo riscos trabalhistas.
+        </p>
+    </div>
+</section>
+
+<!-- ===== SERVIÇOS ===== -->
+<section>
+    <div class="container">
+        <h2>O que fazemos pela sua empresa</h2>
+
+        <div class="servicos">
+
+            <div class="card">
+                <h3>Gestão da Folha de Pagamento</h3>
+                <p>
+                    Conferência detalhada de salários, adicionais, descontos e informações
+                    que serão enviadas à contabilidade.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Controle de Jornada e Ponto</h3>
+                <p>
+                    Análise de ponto eletrônico ou manual, apuração de horas extras e
+                    adequação à legislação.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Direitos e Deveres Trabalhistas</h3>
+                <p>
+                    Orientação sobre benefícios, convenções coletivas e cumprimento
+                    das normas legais.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>RH Integrado à Contabilidade</h3>
+                <p>
+                    Conferência de documentos e atestados médicos antes do envio,
+                    facilitando o trabalho do contador.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Admissões e Demissões</h3>
+                <p>
+                    Acompanhamento completo dos processos, com foco na segurança
+                    jurídica e prevenção de passivos.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Aconselhamento Jurídico</h3>
+                <p>
+                    Consultoria trabalhista e acompanhamento em audiências de conciliação
+                    e julgamento.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ===== BLOCO COM IMAGEM ===== -->
+<section>
+    <div class="container bloco-imagem">
+
+        <div>
+            <h2>Enquanto você cresce, cuidamos do seu RH</h2>
+            <p>
+                Organizamos processos, documentos e informações para que o empresário
+                tenha tranquilidade e tempo para focar no crescimento do negócio.
+            </p>
+        </div>
+
+        <!-- IMAGEM EMPRESARIAL -->
+	<div class="foto empresarial">
+ <img src ="C:\Users\tomea\Downloads\Dinheiro.png" style="width: 600px; height: auto;">
+                    <p>Enquanto nós cuidamos dos problemas o empresário pode se concentrar nos seus negócios, 
+</p>
+     
+    </div>
+</section>
+<section>
+  <div class="container texto">
+    <h2>RH organizado, contabilidade eficiente</h2>
+    <p>
+      Antes que qualquer informação chegue ao contador, todos os documentos
+      passam por conferência minuciosa, inclusive atestados médicos.
+      Isso permite que a contabilidade receba dados corretos, organizados
+      e validados, focando exclusivamente em suas obrigações legais.
+    </p>
+  </div>
+</section>
+
+        <!-- IMAGEM DO RH -->
+	<div class="foto empresarial">
+ <img src ="C:\Users\tomea\Downloads\RH.png" alt="escritorio RH" style="width: 300px; height: auto;" class="img-centralizada">
+                    <p style="text-align: center;">Nós garantimos um trabalho correto para a sua contabilidade</p>
+
+
+<!-- ===== CTA ===== -->
+<section class="cta">
+    <h2>Fale com um especialista</h2>
+    <p>
+        Atendimento personalizado para empresas que valorizam organização,
+        conformidade e segurança jurídica.
+    </p>
+    <a href="https://wa.me/5561991611396" target="_blank">Agendar conversa pelo WhatsApp</a>
+</section>
+
+<!-- ===== RODAPÉ ===== -->
+<footer>
+    <div class="container">
+        <p><strong>PALÁCIO TOMÉ - Gestão de Pessoas Ltda</strong></p>
+        <p>
+            Edifício Connect Towers – QS 01, Rua 212, Lotes 19/23, Sala 1822<br>
+            Águas Claras – DF | Ao lado do Taguashopping
+        </p>
+        <p>
+            WhatsApp: (61) 99161-1396<br>
+            Instagram: @palaciotome
+        </p>
+    </div>
+</footer>
+
+</body>
+</html>
